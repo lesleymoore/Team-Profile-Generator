@@ -72,8 +72,35 @@ inquirer.prompt({
             name: "number",
             message: "What is the team member's office number?",
             
+        },{type: "loop",
+        name:"intern",
+        message: "Would you like to add an intern?",
+        questions: [{
+            type: "input",
+            name: "iname",
+            message: "What is the intern's name?",
+            
         },
-    ]})
+        {
+            type: "input",
+            name: "iemail",
+            message: "What is the intern's email?",
+            
+        },
+        {
+            type: "input",
+            name: "school",
+            message: "Where does the intern go to school?",
+            
+        },
+        {
+            type: "input",
+            name: "id",
+            message: "What is the intern's ID?",
+            
+        },
+        ],}
+    ]}, )
     .then((answers) => {
         const htmlfile = generateHTML(answers);
 
