@@ -1,0 +1,31 @@
+.newcard {
+    margin: 25px;
+    background-color: rgb(134, 211, 211);
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.words {
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+}
+.title {
+    display: flex;
+    justify-content:center;
+}
+.github {
+    font-weight: 700;
+    color: black
+}
+.team {
+    background-color: pink;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+.area {
+    display: flex;
+    justify-content: center;
+}
