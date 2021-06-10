@@ -21,4 +21,4 @@ The user should test the application using their terminal and command node index
 
 ## Walkthrough Video 
 
-[Walkthrough Video]()
+[Walkthrough Video](https://drive.google.com/file/d/1DpJ4VBGzpdaSa6xx_LEKqQJblppeTKpv/view)
