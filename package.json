@@ -1,0 +1,25 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer-loop": "^0.3.0",
+    "inquirer": "^8.1.0",
+    "jest": "^27.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesleymoore/Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lesleymoore/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/lesleymoore/Team-Profile-Generator#readme"
+}

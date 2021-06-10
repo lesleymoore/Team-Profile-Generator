@@ -159,5 +159,6 @@ inquirer.prompt({
     } else {
         fs.writeFile('index.html', htmlfile, (err) =>
         err ? console.log(error) : console.log('Check out your new page!'))
+        
     }
     });
