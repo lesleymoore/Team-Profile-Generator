@@ -57,7 +57,7 @@ const generate2 = (answers) =>
     <ul class="list-group list-group-flush">
       <li class="list-group-item title">ID: ${answers.loop[0].id}</li>
       <li class="list-group-item title">Office #: ${answers.loop[0].number}</li>
-      <li class="list-group-item title">Email: ${answers.loop[0].email}</li>
+      <a href="mailto:${answers.loop[0].email}" class="list-group-item title">Email: ${answers.loop[0].email}</a>
     </ul>
     <div class="card-body">
       <a target='_blank' href="https://github.com/${answers.loop[0].github}" class="title card-link github">GitHub</a>
@@ -71,7 +71,7 @@ const generate2 = (answers) =>
     <ul class="list-group list-group-flush">
       <li class="list-group-item title">ID: ${answers.loop[1].id}</li>
       <li class="list-group-item title">Office #: ${answers.loop[1].number}</li>
-      <li class="list-group-item title">Email: ${answers.loop[1].email}</li>
+      <a href="mailto:${answers.loop[1].email}" class="list-group-item title">Email: ${answers.loop[1].email}</a>
     </ul>
     <div class="card-body">
       <a target='_blank' href="https://github.com/${answers.loop[1].github}" class="title card-link github">GitHub</a>
