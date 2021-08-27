@@ -9,8 +9,8 @@ This team building website takes the information the user inputs in the terminal
 * HTML file is created using the team info inputted in the terminal 
 * WHen the email is clicked you can send an email to them
 * When GitHub is clicked you get their GitHub profile
-* After adding one employee you are promted with the option to add an intern and another employee 
-* WHen you finish building your team the html is created
+* After adding one employee you are prompted with the option to add an intern and another employee 
+* When you finish building your team the html is created
 * A walkthrough video is provided
 
 ## Test
